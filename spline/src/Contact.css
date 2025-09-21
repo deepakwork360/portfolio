@@ -1,6 +1,6 @@
 /* ------- Osmo [https://osmo.supply/] ------- */
 /* Osmo UI: https://slater.app/10324/23333.css */
-
+ 
 body {
   background-color: var(--color-neutral-300);
   color: var(--color-dark);
@@ -155,6 +155,7 @@ button {
   text-transform: uppercase;
   transition: 0.5s;
   font-weight: 600;
+  font-size: 4vh;
   letter-spacing: 4px;
   overflow: hidden;
   

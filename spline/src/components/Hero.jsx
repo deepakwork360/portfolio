@@ -9,7 +9,7 @@ const Hero = () => {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0 ">
         <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#656565] to-[#6a297a] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full ">
-          <div className="absolute inset-[3px] bg-black rounded-full flex items-center justify-center gap-1">
+          <div className="text-2xl lg:text-xs absolute inset-[3px] bg-black rounded-full flex items-center justify-center gap-1">
             <i class="bx bx-diamond"></i> INTRODUCTION
           </div>
         </div>

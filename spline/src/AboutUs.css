@@ -1,0 +1,40 @@
+.Intro-container {
+   align-items: center;
+  border: none;
+  border-radius: 12%;
+}
+
+.Intro-container h1 {
+  font-size: 70px;
+  align-content: center;
+  align-items: center;
+  font: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.Para-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.Para-container p {
+  font-size: 28px;
+ /* roughly text-9xl */
+  font-weight: bold;
+  background: linear-gradient(to right, #e40881, #957eee, #09dfbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: 2%;
+}
+
+.Para-container h1 {
+  font-size: 60px;
+  font-weight:bold;
+  background: linear-gradient(to right, #ec530b, #ee4e0f, #0ce253);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

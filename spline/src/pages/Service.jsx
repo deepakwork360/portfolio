@@ -1,5 +1,5 @@
-import React from 'react'
-import Spline from '@splinetool/react-spline'
+import React from "react";
+import Spline from "@splinetool/react-spline";
 
 function Service() {
   return (
@@ -42,19 +42,17 @@ function Service() {
           app is not only functional but also engaging and reliable across all
           devices.
           <br />
-          <br />
-          I also integrate modern animations using tools like GSAP and Framer
-          Motion to deliver a seamless, dynamic user experience.
+          <br />I also integrate modern animations using tools like GSAP and
+          Framer Motion to deliver a seamless, dynamic user experience.
         </p>
 
         {/* Buttons */}
-        <div className="flex gap-4 mt-8 lg:mt-12"></div>
       </div>
 
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-delay="200"
+        data-aos-delay="300"
         data-aos-offset="0"
         data-aos-duration="2200"
         className="relative w-screen h-screen overflow-hidden"
@@ -70,7 +68,7 @@ function Service() {
         </video>
       </div>
     </main>
-  )
+  );
 }
 
-export default Service
+export default Service;

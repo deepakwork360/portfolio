@@ -8,7 +8,7 @@ function Service() {
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="max-w-xl ml-[5%] z-10 mt-8 md:mt-16 lg:mt-0"
+        className="max-w-xl ml-[5%] z-10 mt-0 md:mt-[20%] lg:mt-0"
       >
         <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#2e337e] to-[#a812ce] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full">
           <div className=" text-2xl absolute inset-[3px] bg-black  rounded-full flex items-center justify-center gap-1">

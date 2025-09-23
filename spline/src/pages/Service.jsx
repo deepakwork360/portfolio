@@ -29,7 +29,7 @@ function Service() {
           Responsive Design
         </h1>
 
-        <p className="text-base sm:text-lg tracking-wider text-gray-400 max-w-[25rem] lg:max-w-[30rem]">
+        <p className="text-base sm:text-lg tracking-wider text-gray-400 max-w-[22rem] lg:max-w-[30rem]">
           I specialize in crafting high-performance, scalable, and responsive
           full-stack web applications using the MERN stack (MongoDB, Express.js,
           React.js, Node.js). From interactive frontends to secure and efficient

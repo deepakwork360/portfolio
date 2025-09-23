@@ -41,18 +41,34 @@ const AboutUs = () => {
   return (
     <main
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-black to-purple-950 overflow-hidden p-10"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden p-10"
     >
-      {/* Glowing background element */}
-      <div className="bg-glow absolute w-[400px] h-[400px] rounded-full blur-3xl opacity-30 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-blue-500"></div>
+      {/* 🎥 Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed top-0 left-0 w-screen h-screen object-cover z-0"
+      >
+        <source src="public1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-      <div className="relative z-10 max-w-4xl text-center">
-        <h1 className="intro-title text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-blue-400 bg-clip-text text-transparent mb-10">
+      {/* 🔲 Semi-transparent overlay for readability */}
+      <div className="absolute inset-0 bg-black/20 z-0"></div>
+
+      {/* 🌈 Glowing background element */}
+      <div className="bg-glow absolute w-[400px] h-[400px] rounded-full blur-3xl opacity-30 bg-gradient-to-r from-fuchsia-500 via-red-500 to-blue-500 z-0"></div>
+
+      {/* 📄 Content */}
+      <div className="relative z-10 max-w-4xl text-center text-white">
+        <h1 className="intro-title text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-orange-600 via-pink-500 to-red-400 bg-clip-text text-transparent mb-10">
           Hello, I'm Deepak Bisht <br />
           Mern Stack Developer
         </h1>
 
-        <div className="space-y-6 text-lg text-purple-100 leading-relaxed">
+        <div className="space-y-6 text-lg text-emerald-200 leading-relaxed">
           <p className="about-text">
             I'm a passionate and detail-oriented Full Stack Developer with a
             focus on building responsive, interactive, and scalable web
@@ -79,7 +95,7 @@ const AboutUs = () => {
             and grow in this ever-evolving field.
           </p>
 
-          <h1 className="about-text text-3xl md:text-4xl font-semibold text-purple-300 mt-8">
+          <h1 className="about-text text-3xl md:text-5xl font-semibold text-orange-700 mt-8">
             I Try To Work that’s worth talking about
           </h1>
         </div>

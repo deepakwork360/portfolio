@@ -21,7 +21,7 @@ const Hero = () => {
           DEVELOPER
         </h1>
 
-        <p className="text-base sm:text-lg tracking-wider text-gray-400 max-w-[25rem] lg:max-w-[30rem] ">
+        <p className="text-base sm:text-lg tracking-wider text-gray-300 max-w-[25rem] lg:max-w-[30rem] ">
           I create immersive, high-performing mern stack websites tailored for
           startups, agencies, and in-house teams that need speed, scalability,
           and full control.
@@ -48,11 +48,16 @@ const Hero = () => {
       </div>
 
          {/* 3d element purple  */}
-          <Spline data-aos="fade-zoom-in"
+          <div  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
      data-aos-offset="0" data-aos-duration="2200"
-      className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full" scene="https://prod.spline.design/ZfPhVcZ1zyIMabzd/scene.splinecode" />
+      className="relative w-screen h-screen overflow-hidden" >
+        <video autoPlay loop muted playsInline 
+        className="fixed top-0 left-0 w-screen h-screen object-cover " >
+          <source src="public2.mp4" type="video/mp4" />
+        </video>
+        </div>
 
 
     </main>

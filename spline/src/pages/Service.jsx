@@ -3,15 +3,29 @@ import Spline from "@splinetool/react-spline";
 
 function Service() {
   return (
-    <main className="flex flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
+    <main className="relative flex flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
+      {/* Background Video Wrapper */}
+      <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="fixed top-0 left-0 w-screen h-screen object-cover z-0"
+        >
+          <source src="public5.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      {/* Text Content */}
       <div
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="max-w-xl ml-[5%] z-10 mt-0 md:mt-[20%] lg:mt-0"
+        className="relative max-w-xl ml-[5%] z-10 mt-0 md:mt-[20%] lg:mt-0"
       >
         <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#2e337e] to-[#a812ce] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full">
-          <div className=" text-2xl absolute inset-[3px] bg-black  rounded-full flex items-center justify-center gap-1">
+          <div className="text-2xl absolute inset-[3px] bg-black rounded-full flex items-center justify-center gap-1">
             <i className="bx bx-diamond"></i> Service
           </div>
         </div>
@@ -45,27 +59,6 @@ function Service() {
           <br />I also integrate modern animations using tools like GSAP and
           Framer Motion to deliver a seamless, dynamic user experience.
         </p>
-
-        {/* Buttons */}
-      </div>
-
-      <div
-        data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0"
-        data-aos-duration="2200"
-        className="relative w-screen h-screen overflow-hidden"
-      >
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="fixed top-0 left-0 w-screen h-screen object-cover"
-        >
-          <source src="public5.mp4" type="video/mp4" />
-        </video>
       </div>
     </main>
   );
